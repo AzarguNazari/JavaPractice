@@ -1,3 +1,5 @@
+package JavaPractice;
+
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -15,19 +17,21 @@ public class AdvanceJava {
 
     public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException {
         
+    	System.out.println("Hello world");
+    	
         
-        ObjectOutputStream output = new ObjectOutputStream(new FileOutputStream("output.txt"));
-        ObjectInputStream input = new ObjectInputStream(new FileInputStream("output.txt"));
-        
-        //List<Person> first = Arrays.asList(new Person("Azarggul", 25), new Person("jamshid", 18));
-        
-        //output.writeObject(first);
-        try{
-            List<Person> first = (List<Person>) input.readObject();
-        }
-        
-        
-        System.out.println(first);
+//        ObjectOutputStream output = new ObjectOutputStream(new FileOutputStream("output.txt"));
+//        ObjectInputStream input = new ObjectInputStream(new FileInputStream("output.txt"));
+//        
+//        //List<Person> first = Arrays.asList(new Person("Azarggul", 25), new Person("jamshid", 18));
+//        
+//        //output.writeObject(first);
+//        try{
+//            List<Person> first = (List<Person>) input.readObject();
+//        }
+//        
+//        
+//        System.out.println(first);
         
     }
     
