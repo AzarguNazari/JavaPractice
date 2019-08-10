@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="600.0" maxWidth="1000.0" minHeight="600.0" minWidth="1000.0" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LocalizatonExercise.LanguagePanel">
+   <children>
+      <AnchorPane prefHeight="83.0" prefWidth="1000.0" style="-fx-background-color: #60bfeb;">
+         <children>
+            <Text layoutX="321.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Language Panel" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Black" size="45.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <TextField layoutX="234.0" layoutY="175.0" prefHeight="51.0" prefWidth="361.0">
+         <font>
+            <Font size="24.0" />
+         </font></TextField>
+      <TextField layoutX="234.0" layoutY="237.0" prefHeight="51.0" prefWidth="361.0">
+         <font>
+            <Font size="24.0" />
+         </font></TextField>
+      <Button fx:id="signinButton" layoutX="238.0" layoutY="313.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="354.0" text="Sign In">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button layoutX="687.0" layoutY="213.0" mnemonicParsing="false" onAction="#helpPage">
+         <graphic>
+            <ImageView fitHeight="39.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/help.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label fx:id="email" layoutX="74.0" layoutY="178.0" text="Email">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="password" layoutX="72.0" layoutY="237.0" text="Password">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Button layoutX="246.0" layoutY="384.0" mnemonicParsing="false" onAction="#arabic" prefHeight="25.0" prefWidth="38.0">
+         <graphic>
+            <ImageView fitHeight="65.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/arabic.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="334.0" layoutY="384.0" mnemonicParsing="false" onAction="#english" prefHeight="25.0" prefWidth="38.0">
+         <graphic>
+            <ImageView fitHeight="65.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/english.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="421.0" layoutY="384.0" mnemonicParsing="false" onAction="#french" prefHeight="25.0" prefWidth="38.0">
+         <graphic>
+            <ImageView fitHeight="65.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/french.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="507.0" layoutY="384.0" mnemonicParsing="false" onAction="#russian" prefHeight="25.0" prefWidth="38.0">
+         <graphic>
+            <ImageView fitHeight="65.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/rusian.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <AnchorPane fx:id="helpPanel" layoutX="761.0" layoutY="97.0" prefHeight="493.0" prefWidth="230.0" style="-fx-background-color: #222;">
+         <children>
+            <Text fx:id="helpText" fill="#eeeeee" layoutX="18.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This is just a test and I would be cool if it was something different" wrappingWidth="200.0">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
