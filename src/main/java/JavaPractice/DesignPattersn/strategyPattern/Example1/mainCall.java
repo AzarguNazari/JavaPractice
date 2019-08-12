@@ -1,4 +1,4 @@
-package DesignPattersn.strategyPattern.Example1;
+package JavaPractice.DesignPattersn.strategyPattern.Example1;
 
 /**
  *

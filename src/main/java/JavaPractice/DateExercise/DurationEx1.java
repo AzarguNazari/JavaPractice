@@ -1,4 +1,4 @@
-package DateExercise;
+package JavaPractice.DateExercise;
 
 import java.time.Duration;
 import java.time.Instant;

@@ -1,7 +1,5 @@
-package CollectionsArray;
+package JavaPractice.CollectionsArray;
 
-
-import com.sun.jmx.remote.internal.ArrayQueue;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
