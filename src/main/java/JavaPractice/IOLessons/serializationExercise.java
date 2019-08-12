@@ -1,4 +1,4 @@
-package IOLessons;
+package JavaPractice.IOLessons;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

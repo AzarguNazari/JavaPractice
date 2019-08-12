@@ -1,4 +1,4 @@
-package ThreadLesson;
+package JavaPractice.ThreadLesson;
 
 /**
  *

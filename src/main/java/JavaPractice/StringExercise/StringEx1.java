@@ -1,4 +1,4 @@
-package StringExercise;
+package JavaPractice.StringExercise;
 
 public class StringEx1 {
     

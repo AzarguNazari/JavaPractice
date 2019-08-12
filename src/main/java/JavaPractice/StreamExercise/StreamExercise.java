@@ -1,4 +1,4 @@
-package StreamExercise;
+package JavaPractice.StreamExercise;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

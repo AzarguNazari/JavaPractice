@@ -1,4 +1,4 @@
-package Threading;
+package JavaPractice.Threading;
 public class Example1 extends Thread{
     
     @Override

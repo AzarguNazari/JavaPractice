@@ -1,4 +1,4 @@
-package IOLessons;
+package JavaPractice.IOLessons;
 
 import java.io.File;
 import java.io.FileWriter;

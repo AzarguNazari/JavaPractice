@@ -1,4 +1,4 @@
-package Networking;
+package JavaPractice.Networking;
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;

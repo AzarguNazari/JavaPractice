@@ -1,5 +1,5 @@
 
-package IOLessons;
+package JavaPractice.IOLessons;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -17,7 +17,6 @@ import java.io.PrintWriter;
 import java.net.URL;
 import java.util.Arrays;
 import java.util.Scanner;
-import javafx.scene.chart.BubbleChart;
 
 public class streamsExercise {
     

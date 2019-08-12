@@ -1,6 +1,5 @@
-package ExceptionPractice;
+package JavaPractice.ExceptionPractice;
 
-import com.sun.xml.internal.ws.encoding.soap.SerializationException;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
